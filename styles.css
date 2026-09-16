@@ -136,13 +136,33 @@ a {
 }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
   display: flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
   color: var(--primary);
+}
+
+.brand-logo {
+  height: 42px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+  transition: var(--transition);
+}
+
+.brand-logo:hover {
+  transform: translateY(-1px) scale(1.02);
+}
+
+.brand-logo-footer {
+  height: 46px;
+  max-width: 230px;
+  margin-bottom: 8px;
 }
 
 .logo span {
@@ -1074,5 +1094,10 @@ a {
   .floating-whatsapp-container {
     bottom: 20px;
     right: 20px;
+  }
+
+  .brand-logo {
+    height: 36px;
+    max-width: 170px;
   }
 }

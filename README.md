@@ -19,6 +19,7 @@ Landing page moderna, responsiva e de alta conversão para marca de moda fitness
 
 ## 📦 Estrutura dos Arquivos
 
+- `assets/`: Identidade visual completa (logos em PNG/SVG para temas claro e escuro, ícones, favicons e capas).
 - `index.html`: Estrutura semântica completa com hero section, diferenciais, catálogo de produtos, consultoria, depoimentos, FAQ e botão flutuante.
 - `styles.css`: Estilização premium, responsiva (mobile-first), com animações sutis e paleta moderna.
 - `script.js`: Menu hambúrguer mobile, acordeão interativo de FAQ e efeitos de rolagem.
